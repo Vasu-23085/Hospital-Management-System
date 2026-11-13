@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare | Hospital Management</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="brand">
+        <div class="brand-icon">✚</div>
+        <div>
+            <h2>HealthCare</h2>
+            <small>Hospital Management</small>
+        </div>
+    </div>
+
+    <p class="menu-label">MAIN MENU</p>
+    <button class="nav-item active" data-page="dashboard">▦ Dashboard</button>
+
+    <p class="menu-label">MANAGEMENT</p>
+    <button class="nav-item" data-page="departments">Departments</button>
+    <button class="nav-item" data-page="doctors">Doctors</button>
+    <button class="nav-item" data-page="patients">Patients</button>
+    <button class="nav-item" data-page="appointments">Appointments</button>
+    <button class="nav-item" data-page="medical-records">Medical Records</button>
+    <button class="nav-item" data-page="prescriptions">Prescriptions</button>
+    <button class="nav-item" data-page="medicines">Medicines</button>
+    <button class="nav-item" data-page="prescription-items">Prescription Items</button>
+    <button class="nav-item" data-page="bills">Bills</button>
+    <button class="nav-item" data-page="payments">Payments</button>
+
+    <div class="sidebar-footer">Hospital Management System<br>Academic Project</div>
+</div>
+
+<main class="main-content">
+    <header class="topbar">
+        <div>
+            <h1 id="pageTitle">Dashboard</h1>
+            <p id="pageSubtitle">Hospital overview and statistics</p>
+        </div>
+        <div class="admin">● Administrator</div>
+    </header>
+
+    <div id="message" class="message"></div>
+    <section id="content"></section>
+
+    <footer>© 2026 HealthCare Hospital Management System</footer>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
